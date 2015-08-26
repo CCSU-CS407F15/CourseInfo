@@ -10,7 +10,11 @@ _Central Connecticut State University_
 
 **e-mail:** cwilliams@ccsu.edu
 
-**Course website:** Blackboard Learn
+**Course website:** 
+  * Blackboard https://ct-ccsu.blackboard.com
+  * GitHub https://github.com/CCSU-CS407F15/CourseInfo
+    *  See the Git readme https://github.com/CCSU-CS407F15/CourseInfo/blob/master/Git-ReadMe.md
+  
 
 **Class:** 5:55-7:10pm Monday and Wednesday in MS 204
 
