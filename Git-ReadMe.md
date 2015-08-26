@@ -8,4 +8,5 @@ Some useful links related to setting up and using Git and GitHub.  If there are 
 * [Git cheatsheet](http://www.git-tower.com/blog/git-cheat-sheet/)
 * [Markdown sytax cheatsheet](http://stationinthemetro.com/wp-content/uploads/2013/04/Markdown_Cheat_Sheet_v1-1.pdf)
 * [GitHub Flavored Markdown GFM guide](https://help.github.com/articles/github-flavored-markdown/)
+* [Printing GitHub markdown files](https://gitprint.com/)
 * [Useful Git links created by Jeremy Beardsley](https://gist.github.com/jeremybeardsley/43b1432120e244745454)
