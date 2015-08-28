@@ -251,7 +251,7 @@ There will be a number of interim checkpoints during the semester to ensure you 
 
 **Week 14 week of November 30**
 
--   Final projects due 11/30
+-   Final projects due 12/2
 
 -   Final project presentations
 
