@@ -29,7 +29,7 @@ Jia. “Object-Oriented Software Development using Java, 2nd ed.” Addison-Wesl
 **Course description:** The focus of the course will be on moving from basic OO programming to developing an in depth knowledge of how to use advanced OO design patterns. Students will develop a better understanding of how to apply OO techniques including abstraction, encapsulation, modularity, message passing, polymorphism, inheritance, and exception handling. Students will be introduced to a broad array of proven design patterns, when they should be used, and how to implement them in practice. These patterns will include: Singleton, Template, Strategy, Iterator, Factory, and Delegation. Students will also learn how to incorporate the Collections, Generics, Composite, Comparators, and MVC frameworks. Most importantly, students will learn to evaluate what makes each design pattern appropriate for a particular application.
 
 As part of this course students will learn key skills for team based designing and developing OO architectures in practice. A key aspect will be integrating UML into the design process based on the Rational Unified Process (RUP) for the patterns being learned. Students will also learn how to implement all patterns discussed in class and how to create automated testing of their OO system and the proper way to implement exception handling. Finally, students will learn proper use of version control in a team setting. *Prerequisites: CS 152 and 254 and permission of instructor*
->
+
 > 3.000 Credit Hours
 
 [**Program educational objectives and student outcomes**](http://www.cs.ccsu.edu/mission.html#objectives)
