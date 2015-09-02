@@ -18,6 +18,8 @@ _Central Connecticut State University_
 
 **Class:** 5:55-7:10pm Monday and Wednesday in MS 204
 
+Proposed change
+
 **Required book:**
 
 Gamma, Helm, Johnson, and Vlissides. “Design Patterns: Elements of Reusable Object-Oriented Software” (1994) - *informally known as “The Bible by the gang of 4” when it comes to design patterns*.
