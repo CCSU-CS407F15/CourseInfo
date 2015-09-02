@@ -10,7 +10,7 @@ To check out (or co) is to create a local working copy from the repository. A us
 To commit (check in, ci or, more rarely, install, submit or record) is to write or merge the changes made in the working copy back to the repository. The terms 'commit' and 'checkin' can also be used as nouns to describe the new revision that is created as a result of committing.
 ###Head
 Also sometimes called tip, this refers to the most recent commit, either to the trunk or to a branch. The trunk and each branch have their own head.
-###Revision# 
+###Revision 
 Also version: A version is any change in form. In SVK, a Revision is the state at a point in time.
 ###Tag
 A tag or label refers to an important snapshot in time, consistent across many files. These files at that point may all be tagged with a user-friendly, meaningful name or revision number. 
