@@ -1,4 +1,4 @@
-# Terminology (adapted from [[1](https://en.wikipedia.org/wiki/Revision_control)) 
+# Terminology (adapted from [[1](https://en.wikipedia.org/wiki/Revision_control)]) 
 ##Fundamentals
 
 ###Change 
