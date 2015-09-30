@@ -24,9 +24,9 @@
 
 5.  Return help for the application in general
 
-    Key aspect here is that when help is requested which component should respond to the request for help information isn't known ahead of time. For example, what the ?Ç£previous screen?Ç¥ is may be completely independent of the screen they are currently on but relevant to the general task they were performing. Trying to code for every possible combination is not good or potentially even possible.
+    Key aspect here is that when help is requested which component should respond to the request for help information isn't known ahead of time. For example, what the "previous screen" is may be completely independent of the screen they are currently on but relevant to the general task they were performing. Trying to code for every possible combination is not good or potentially even possible.
 
-    **Java Exception architecture ** Handling of exceptions propagates up call stack allowing each calling component an opportunity to handle the exception. Given that there can be a huge number of potential paths to how a common method may be called having the responsibility passed up the chain of the call stack is far more flexible than it being hard coded.
+    **Java Exception architecture** Handling of exceptions propagates up call stack allowing each calling component an opportunity to handle the exception. Given that there can be a huge number of potential paths to how a common method may be called having the responsibility passed up the chain of the call stack is far more flexible than it being hard coded.
 
     **Structure**
 
