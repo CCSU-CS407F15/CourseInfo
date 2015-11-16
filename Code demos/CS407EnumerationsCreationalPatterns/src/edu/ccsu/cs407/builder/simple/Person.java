@@ -4,15 +4,17 @@ public class Person {
 
   private final String first;   //required
   private final String last;    //required
-  private MaritalStatus maritalStatus;  //optional
-  private Double height;        //optional
-  private String jobTitle;      //optional
+  private final MaritalStatus maritalStatus;  //optional
+  private final String significantOtherName;  //required if married
+  private final Double height;        //optional
+  private final String jobTitle;      //optional
   
 
   private Person(PersonBuilder builder) {
     this.first = builder.first;
     this.last = builder.last;
     this.maritalStatus = builder.maritalStatus;
+    this.significantOtherName = builder.significantOtherName;
     this.height = builder.height;
     this.jobTitle = builder.jobTitle;
   }
@@ -23,6 +25,7 @@ public class Person {
     private String last = null;
     // optional parameters
     private MaritalStatus maritalStatus = null;
+    private String significantOtherName = null;
     private Double height = null;
     private String jobTitle = null;
     
@@ -32,7 +35,23 @@ public class Person {
     }
     
     public Person buildPerson(){
+      if (!builderComplete()){
+        throw new RuntimeException("Illegal person state");
+      }
       return new Person(this);
+    }
+    
+    public boolean builderComplete(){
+      if ((first!=null)&&(last!=null)){
+        if (maritalStatus==null){
+          return true;
+        }else if(!maritalStatus.equals(MaritalStatus.MARRIED)){
+          return true;
+        }else if(significantOtherName!=null){
+          return true;
+        }
+      }
+      return false;
     }
 
     public PersonBuilder setMaritialStatus(MaritalStatus maritialStatus){
@@ -52,6 +71,14 @@ public class Person {
      */
     public PersonBuilder setJobTitle(String jobTitle) {
       this.jobTitle = jobTitle;
+      return this;
+    }
+
+    /**
+     * @param significantOtherName the significantOtherName to set
+     */
+    public PersonBuilder setSignificantOtherName(String significantOtherName) {
+      this.significantOtherName = significantOtherName;
       return this;
     }
   }
