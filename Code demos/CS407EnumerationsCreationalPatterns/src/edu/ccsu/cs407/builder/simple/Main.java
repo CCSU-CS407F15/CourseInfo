@@ -14,13 +14,14 @@ public class Main {
   public static void main(String[] args){
     // Option 1
     PersonBuilder builder = new Person.PersonBuilder("John", "Doe");
-    builder.setMaritialStatus(MaritalStatus.MARRIED);
+    builder.setMaritialStatus(MaritalStatus.DIVORCED);
     builder.setJobTitle("Professor");
     Person johnDoe = builder.buildPerson();
     
     // Option 2
     Person janeDoe = new Person.PersonBuilder("Jane", "Doe")
                      .setMaritialStatus(MaritalStatus.MARRIED)
+                     .setSignificantOtherName("Jerry Rice")
                      .setJobTitle("Professor").buildPerson();
   }
 }
