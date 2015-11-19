@@ -16,3 +16,5 @@ Code demos/CS407ExceptionDemo/nbproject/
 Code demos/CS407ExceptionDemo/build/
 Code demos/CS407ExceptionDemo/build.xml
 *.zargo~
+/Code demos/CS407VisitorPattern/build/
+*.gitignore~
